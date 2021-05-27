@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     li.contentEditable = true
     document.getElementById('tasks').appendChild(li)
     document.getElementById('create-task-form').reset()
-    console.log(delAllEnabled)
+    //console.log(delAllEnabled)
 
     if (!delAllEnabled){
       //create delete all button
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       delAllBtn.textContent = "Delete All"
       document.getElementById('list').appendChild(delAllBtn)
       delAllEnabled =true
-      console.log(delAllBtn.id)
+      //console.log(delAllBtn.id)
     }  
 
   })
